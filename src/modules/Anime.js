@@ -16,7 +16,7 @@ class Anime {
 
   getAnimes() {
     return this.getShows()
-      .then((shows) => shows.slice(50, 90));
+      .then((shows) => shows.slice(0, 100));
   }
 
   displayAnime = (items) => {
